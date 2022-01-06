@@ -1,0 +1,36 @@
+{
+  "plugins": [
+    "wildcard",
+    [
+      "babel-plugin-root-import",
+      {
+        "paths": [
+          {
+            "rootPathSuffix": "./src",
+            "rootPathPrefix": "src"
+          },
+          {
+            "rootPathSuffix": "./src/view/component",
+            "rootPathPrefix": "component"
+          },
+          {
+            "rootPathSuffix": "./src/view/action",
+            "rootPathPrefix": "action"
+          },
+          {
+            "rootPathSuffix": "./src/assets",
+            "rootPathPrefix": "assets"
+          },
+          {
+            "rootPathSuffix": "./src/service",
+            "rootPathPrefix": "service"
+          },
+          {
+            "rootPathSuffix": "./src/framework",
+            "rootPathPrefix": "framework"
+          }
+        ]
+      }
+    ]
+  ]
+}
